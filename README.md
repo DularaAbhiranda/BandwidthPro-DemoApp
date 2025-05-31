@@ -1,16 +1,62 @@
-# traffic_sim
+# BandwidthPro-DemoApp
 
-A new Flutter project.
+A Flutter-based mobile application to simulate and visualize synthetic network traffic. This app is developed for controlled Wi-Fi stress testing and demonstration purposes.
 
-## Getting Started
+## ⚙️ Features
 
-This project is a starting point for a Flutter application.
+- Generate high-load traffic using HTTP, TCP, or UDP protocols
+- Multiple traffic patterns:
+  - Constant
+  - Burst
+  - Incremental
+  - Random
+- Real-time metrics:
+  - Download speed
+  - Upload speed
+  - Latency
+  - Simulated packet loss
+- Developer mode toggle to increase intensity for testing purposes
+- Educational UI to explain network concepts
+- Built-in Terms of Use to ensure ethical testing
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Technologies
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter 3.x
+- Dart
+- Shared Preferences
+- HTTP & Socket libraries
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Screenshots
+
+*(Insert demo screenshots of the UI here)*
+
+## 🚀 How to Run
+
+1. Clone the repo:
+
+   ```bash
+   git clone https://github.com/your-username/BandwidthPro-DemoApp.git
+   cd BandwidthPro-DemoApp
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+
+3. Run the app:
+
+   ```bash
+   flutter run
+   ```
+
+✅ Android is the primary supported platform. Windows/Web may require additional setup.
+
+⚠️ Disclaimer
+This app is intended for educational and controlled demonstrations only. It must not be used on networks without proper authorization. Misuse may violate computer and telecommunication laws.
+
+👨‍💻 Developer
+Dulara Abhirajith
+Intern Candidate – Wi-Fi Network Demonstration Project
+GitHub: github.com/DularaAbhiranda
